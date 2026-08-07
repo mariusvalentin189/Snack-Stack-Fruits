@@ -15,5 +15,5 @@ A classic Match-3 puzzle game developed in Unity using C#.
 
 ## ▶️ Running the Game
 
-The playable build is available in the GameBuild folder.
+The project is in progress. The last playable build is available in the GameBuild folder.
 Simply run the executable inside the folder to start the game.
