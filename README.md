@@ -1,8 +1,17 @@
-Snack Stack Fruits is a 3 Match game created in Unity and C#.
+🍓 Snack Stack Fruits
 
-Key features:
-  - basic 3 MAtch game rulees for different patterns.
-  - scoring system with stars based on the final score
-  - save system for levvels and best score
+A classic Match-3 puzzle game developed in Unity using C#.
 
-Game build found in "GameBuild" folder.
+🎮 Features
+ - 🧩 Classic match-3 gameplay with support for multiple matching patterns.
+ - ⭐ Star-based scoring system that rewards players based on their final score.
+ - 💾 Save system for level progression and best scores.
+ - 🎯 Score tracking to encourage replayability and higher ratings.
+
+🛠️ Built With
+Unity
+C#
+
+▶️ Running the Game
+The playable build is available in the GameBuild folder.
+Simply run the executable inside the folder to start the game.
