@@ -429,11 +429,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 165341704389112773, guid: fc3bc05eff0a0c545a90878c904d7257, type: 3}
       propertyPath: rowsCount
-      value: 9
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 165341704389112773, guid: fc3bc05eff0a0c545a90878c904d7257, type: 3}
       propertyPath: columnsCount
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 165341704389112773, guid: fc3bc05eff0a0c545a90878c904d7257, type: 3}
       propertyPath: tileObjects.Array.size
@@ -445,19 +445,15 @@ PrefabInstance:
       objectReference: {fileID: 3551469511505594320, guid: 8092f3c4c47764549b2cf3a3a624fe8d, type: 3}
     - target: {fileID: 1366114427874155863, guid: fc3bc05eff0a0c545a90878c904d7257, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 774.054
+      value: 889.136
       objectReference: {fileID: 0}
     - target: {fileID: 1366114427874155863, guid: fc3bc05eff0a0c545a90878c904d7257, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 981.233
+      value: 738.318
       objectReference: {fileID: 0}
     - target: {fileID: 1366114427874155863, guid: fc3bc05eff0a0c545a90878c904d7257, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 49.384
-      objectReference: {fileID: 0}
-    - target: {fileID: 1895210274744447249, guid: fc3bc05eff0a0c545a90878c904d7257, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
+      value: 163.376
       objectReference: {fileID: 0}
     - target: {fileID: 2593730039418396500, guid: fc3bc05eff0a0c545a90878c904d7257, type: 3}
       propertyPath: levelID
@@ -478,18 +474,6 @@ PrefabInstance:
     - target: {fileID: 2938118309682588084, guid: fc3bc05eff0a0c545a90878c904d7257, type: 3}
       propertyPath: m_Name
       value: GameArea
-      objectReference: {fileID: 0}
-    - target: {fileID: 2959524857632921125, guid: fc3bc05eff0a0c545a90878c904d7257, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3385467599684029156, guid: fc3bc05eff0a0c545a90878c904d7257, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5303777946150675960, guid: fc3bc05eff0a0c545a90878c904d7257, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7384563740786618709, guid: fc3bc05eff0a0c545a90878c904d7257, type: 3}
       propertyPath: m_Pivot.x
