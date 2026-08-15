@@ -2,8 +2,6 @@
 
 A classic **Match-3 puzzle game** developed in **Unity** using **C#**.
 
-> 🚧 **Project Status:** This project is currently **under development**. Some planned features have not yet been implemented.
-
 ---
 
 ## 🎮 Features
@@ -22,8 +20,8 @@ A classic **Match-3 puzzle game** developed in **Unity** using **C#**.
 
 ---
 
-## ▶️ Running the Game
+## ▶️ Play the Game
 
-The playable build is available in the `GameBuild` folder.
+The completed game is available on **itch.io**:
 
-Simply run the executable inside the folder to start the game.
+**🎮 https://mariusdev.itch.io/snack-stack-fruits**
