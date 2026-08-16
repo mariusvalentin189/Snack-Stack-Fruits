@@ -37,4 +37,12 @@ public class LevelsManager : MonoBehaviour
             }
         }
     }
+    public void LockAllLevels()
+    {
+        levelsButtons[0].ResetLevelStatus();
+        for (int i = 1; i < levelsButtons.Length; i++)
+        {
+            levelsButtons[i].LockLevel();
+        }
+    }
 }

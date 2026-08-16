@@ -11,6 +11,8 @@ public class PauseMenu : MonoBehaviour
         Application.targetFrameRate = 60; //fixed framerate
         Instance = this;
 
+        levelNumberText.text = "Level " + levelID;
+
     }
     public bool IsPaused 
     {
@@ -48,6 +50,7 @@ public class PauseMenu : MonoBehaviour
     [SerializeField] int levelID;
     [SerializeField] GameObject levelFinishedWindow;
     [SerializeField] TMP_Text scoreText;
+    [SerializeField] TMP_Text levelNumberText;
     [SerializeField] Image[] starsImages;
     [SerializeField] Sprite starSprite;
     [Header("Panels")]
@@ -94,7 +97,28 @@ public class PauseMenu : MonoBehaviour
             }
 
         }
-        else scoreText.text = $"FINAL SCORE: \n{score.ToString()}";
+        else 
+        {
+            scoreText.text = $"FINAL SCORE: \n{score.ToString()}";
+
+            int stars = 0;
+            if (score >= oneStarScore)
+            {
+                starsImages[0].sprite = starSprite;
+                stars = 1;
+                if (score >= twoStarScore)
+                {
+                    stars = 2;
+                    starsImages[1].sprite = starSprite;
+
+                    if (score >= threeStarScore)
+                    {
+                        stars = 3;
+                        starsImages[2].sprite = starSprite;
+                    }
+                }
+            }
+        }
 
         PlayerPrefs.SetInt("LevelCompleted" + levelID, 1);
 
